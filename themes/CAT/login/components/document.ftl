@@ -28,4 +28,15 @@
       <script defer src="${url.resourcesPath}/${script}" type="text/javascript"></script>
     </#list>
   </#if>
+
+  <#--  <script src="${url.resourcesPath}/vendors/react.min.js" type="text/javascript"></script>
+  <script src="${url.resourcesPath}/vendors/react-dom.min.js" type="text/javascript"></script>  -->
+  <script crossorigin src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
+
+  <script src="${url.resourcesPath}/vendors/babel.min.js" type="text/javascript"></script>
+  <script src="${url.resourcesPath}/vendors/material-ui.production.min.js" type="text/javascript"></script>
+  <script src="${url.resourcesPath}/vendors/swipezor.min.js" type="text/javascript"></script>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </#macro>
